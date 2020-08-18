@@ -1,0 +1,308 @@
+/* homepage style*/
+
+.main {
+    width: 980px;
+    height: 455px;
+    /*background-color: pink;*/
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    background: red;
+}
+
+.focus img {
+    width: 720px;
+    height: 455px;
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 40px;
+    margin-top: -20px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: "icomoon";
+    font-size: 18px;
+}
+
+.arrow-r {
+    right: 0;
+    font-family: "icomoon";
+    font-size: 18px;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current {
+    background: #fff;
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+
+.news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+
+.news-hd a {
+    float: right;
+    font-size: 12px;
+    font-family: "icomoon";
+}
+
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+
+.news-bd li {
+    height: 23px;
+}
+
+.lifeservice {
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    display: block;
+    height: 100%;
+    margin: 12px 19px;
+    text-align: center;
+}
+
+.lifeservice i {
+    font-family: "icomoon";
+    font-size: 21px;
+    color: #B71B1F;
+}
+
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+}
+
+.bargin img {
+    width: 250px;
+    height: 75px;
+    background-size: 100% 100%;
+}
+
+
+/* recommend part */
+
+.recommend {
+    height: 162px;
+    margin-top: 10px;
+}
+
+.recommend-hd {
+    width: 200px;
+    height: 163px;
+    background-color: #91A9CD;
+    text-align: center;
+}
+
+.recommend-hd i {
+    font-family: 'icomoon';
+    color: #DC576B;
+    font-size: 55px;
+    margin: 30px 0 10px 0;
+    display: block;
+}
+
+.recommend-hd h3 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.recommend-bd {
+    width: 1000px;
+    height: 163px;
+    /*background-color: #D9D9D6;*/
+    background-color: #C7C7C7;
+}
+
+.recommend-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #fff;
+    margin-top: 10px;
+}
+
+
+/*.recommend-bd img{
+	float: left;
+	width: 249px;
+	height: 145px;
+}*/
+
+.recommend-bd li .last {
+    border-right: none;
+}
+
+
+/*floor part*/
+
+.box-hd {
+    height: 30px;
+    /*background-color: pink;*/
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #D81E05;
+}
+
+.tab-list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab-list li {
+    float: left;
+}
+
+.tab-list li a {
+    margin: 0 10px;
+}
+
+.box-bd {
+    height: 360px;
+    /*	background-color: pink;*/
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.tab-con-list li {
+    width: 82px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+/* fixed tools */
+
+.fixedtools {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: rgba(199, 199, 199, 0.5);
+}
+
+.fixedtools li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #91A9CD;
+    cursor: pointer;
+}
+
+.fixedtools .current {
+    background-color: #D81E05;
+    color: #fff;
+}
+
+
+/* 鼠标经过图片往右走 8px*/
+
+.box-bd li {
+    overflow: hidden;
+}
+
+.box-bd img {
+    transition: all 0.3s;
+}
+
+.box-bd img:hover {
+    margin-left: 8px;
+}
